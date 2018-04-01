@@ -1,10 +1,10 @@
-# Docker
-.dockerignore
 Dockerfile
-
-# Git
+.dockerignore
+get_iplayer_settings
 .git
 .gitignore
-
-# This repository
+LICENSE
+openvpn
+output
+README.md
 run.sh
