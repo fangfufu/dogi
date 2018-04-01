@@ -1,5 +1,5 @@
 # DOGI
-a Debian docker image that contain the following software packages: [Drive](https://github.com/odeke-em/drive) [OpenVPN](https://openvpn.net/) and (Get_Iplayer)[https://github.com/get-iplayer/get_iplayer].
+a Debian docker image that contain the following software packages: [Drive](https://github.com/odeke-em/drive) [OpenVPN](https://openvpn.net/) and [Get_Iplayer](https://github.com/get-iplayer/get_iplayer).
 
 ## Problem Statement
 You want to download a lot of iPlayer videos on to your server, but your server doesn't have enough space, but you happen to have a lot of space on your Google Drive. Your server does not have an UK-based IP address. You only have headless access to your server.
