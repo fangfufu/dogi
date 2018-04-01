@@ -1,0 +1,10 @@
+# Docker
+.dockerignore
+Dockerfile
+
+# Git
+.git
+.gitignore
+
+# This repository
+run.sh

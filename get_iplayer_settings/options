@@ -1,0 +1,6 @@
+modes tvbest,radiobest
+nopurge 1
+subtitles 1
+subsembed 1
+output /root/output/iPlayer
+#command drive push -no-prompt <subsfile> && rm <filename> && rm <subsfile>
