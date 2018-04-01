@@ -11,5 +11,5 @@ docker run \
 	--mount type=bind,source="$(pwd)"/get_iplayer_settings,target=/root/.get_iplayer \
 	--name dogi \
 	dogi:latest
-echo Remove container:
+echo Removing container:
 docker rm dogi

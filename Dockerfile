@@ -36,6 +36,5 @@ RUN go get -u github.com/odeke-em/drive/cmd/drive
 ADD https://raw.githubusercontent.com/get-iplayer/get_iplayer/master/get_iplayer \
         /root/get_iplayer
 RUN chmod +x /root/get_iplayer
-COPY get_iplayer_options /root/.get_iplayer/options
 
 ENTRYPOINT ["/bin/bash"]
