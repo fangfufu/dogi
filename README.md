@@ -5,7 +5,7 @@ a Debian docker image that contain the following software packages: [Drive](http
 You want to download a lot of iPlayer videos on to your server, but your server doesn't have enough space, but you happen to have a lot of space on your Google Drive. Your server does not have an UK-based IP address. You only have headless access to your server.
 
 ## Solution
-Run an interactive Debian Docker instance, run OpenVPN in that docker instance, download videos using get_iplayer, push the videos to your Google Drive, then delete the video. 
+Run an interactive Debian Docker instance, run OpenVPN in that Docker instance, download videos using get_iplayer, push the videos to your Google Drive, then delete the video. 
 
 ## Implementation
 1. Put your OpenVPN settings into the ``openvpn`` folder.
