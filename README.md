@@ -12,7 +12,7 @@ Run an interactive Debian Docker instance, run OpenVPN in that docker instance, 
 2. Set up Drive in the ``output`` folder. 
 3. Run ``run.sh`` to obtain an interactive shell. 
 4. Run ``/etc/init.d/openvpn start``
-5. ``get_iplayer`` is in /root.
+5. ``get_iplayer`` is in ``/root``.
 
   * Note that if you don't create the ``openvpn`` and ``output`` folders, ``run.sh`` will create them for you. However, of course you still have to configure them manually. 
   * You have to comment the last line in ``get_iplayer_settings/options`` to enable automatic Google Drive uploading/deletion.
