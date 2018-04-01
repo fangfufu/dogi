@@ -10,6 +10,6 @@ docker run \
 	--mount type=bind,source="$(pwd)"/openvpn,target=/etc/openvpn \
 	--mount type=bind,source="$(pwd)"/get_iplayer_settings,target=/root/.get_iplayer \
 	--name dogi \
-	dogi:latest
+	fangfufu/dogi:latest
 echo Removing container:
 docker rm dogi
